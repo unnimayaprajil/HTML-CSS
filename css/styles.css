@@ -5,6 +5,42 @@
     border: 0;
     box-sizing: border-box;  
 }
-h2{
-    color: #00f;
+.parent{
+    border: 2px solid #00f;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: space-between; */
+    align-items: center;
+    
+}
+.parent>div{
+    width:300px;
+    height: 30px;
+}
+.child1{
+    background-color: #f00;   
+}
+.child2{
+    background-color: #0f0;
+}
+.child3{
+    background-color: rgb(14, 4, 4);
+}
+.child4{
+    background-color: rgb(77, 104, 155);
+}
+.child5{
+    background-color: rgb(200, 255, 0);
+}
+.child6{
+    background-color: rgb(133, 141, 135);
+}
+.child7{
+    background-color: rgb(146, 101, 16);
+}
+.child8{
+    background-color: rgb(165, 6, 94);
 }
