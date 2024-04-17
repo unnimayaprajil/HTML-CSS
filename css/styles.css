@@ -5,6 +5,30 @@
     border: 0;
     box-sizing: border-box;  
 }
-h2{
-    color: #00f;
+
+.portfolio-img-container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.portfolio-img-container>.img-container{
+    background-color: aquamarine;
+    padding: 20px;
+    width: 25%;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:576px) {
+    .portfolio-img-container>.img-container{
+        width: 100%;
+    }
 }
