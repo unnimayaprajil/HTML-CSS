@@ -5,6 +5,7 @@
     border: 0;
     box-sizing: border-box;  
 }
-h2{
-    color: #00f;
+
+.parent~h2{
+    color: blue;
 }
